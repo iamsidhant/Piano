@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#piano{
+    height: 290px;
+    padding: 90px 30px 0px 30px;
+    background-color: #fc8989;
+    border-radius: 10px;
+}
+
+.keys{
+    position: relative;
+}
+
+.white-keys{
+    display: flex;
+}
+
+.black-keys{
+    position: relative;
+    display: flex;
+}
+
