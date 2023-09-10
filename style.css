@@ -28,7 +28,7 @@ body{
 }
 
 .white-key{
-    width: 69px;
+    width: 68px;
     height: 280px;
     background-color: #fff;
     border: 2px solid #000;
@@ -41,7 +41,7 @@ body{
     height: 160px;
     background-color: #000;
     box-sizing: border-box;
-    position: relative;
+    position: absolute;                 /* I made mistake position: relative; */
     border-radius: 0 0 5px 5px;
 }
 
